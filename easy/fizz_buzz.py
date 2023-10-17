@@ -8,3 +8,12 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 """
+for number in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print("fizzbuzz\n")
+    elif number % 3 == 0:
+        print("fizz\n")
+    elif number % 5 == 0:
+        print("buzz\n")
+    else:
+        print(number, "\n")
